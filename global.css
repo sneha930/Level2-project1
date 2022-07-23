@@ -78,6 +78,10 @@
     color: #576F72;
 }
 
+.link {
+    cursor: pointer;
+}
+
 .button {
     background-color: #3330E4;
     font-size: 14px;
@@ -88,6 +92,11 @@
     padding: 10px 20px;
     color: white;
     box-shadow: 2px 10px #F9F2ED;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #5755cc;
 }
 
 .cancel {
@@ -95,4 +104,5 @@
     color: #576F72;
     margin-top: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
